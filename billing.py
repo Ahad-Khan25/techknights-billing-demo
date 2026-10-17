@@ -9,7 +9,7 @@ def apply_discounts(price, percent):
     return price * (1 - percent / 100)
 
 
-def apply_discount(price, percent):
+def apply_disc(price, percent):
     """Backward compatible wrapper for apply_discounts.
     Maintains original API expected by tests.
     """
