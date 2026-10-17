@@ -1,4 +1,4 @@
-def calc_total(amounts):
+def calculate_total(amounts):
     """Return the sum of all item amounts."""
     return sum(amounts)
 
