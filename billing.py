@@ -14,3 +14,10 @@ def apply_disc(price, percent):
     Maintains original API expected by tests.
     """
     return apply_discounts(price, percent)
+
+
+def apply_discount(price, percent):
+    """Compatibility wrapper for apply_disc.
+    Restores original API expected by tests.
+    """
+    return apply_disc(price, percent)
