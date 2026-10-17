@@ -5,5 +5,5 @@ def calc_total(amounts):
 def calculate_total(amounts):
     return sum(amounts)
 
-def apply_discount(price, percent):
+def apply_discounts(price, percent):
     return price * (1 - percent / 100)
